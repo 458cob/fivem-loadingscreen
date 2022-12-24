@@ -31,8 +31,8 @@ video {
     z-index: -1;
 }
 
-.text {
-    z-index: 100;
+.text p{
+    z-index: 98;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,3 +46,19 @@ video {
     right: 0;
     left: 0;
 }
+
+.stop {
+    margin: 0.1rem;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    font-size: 1.2rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-family: monospace;
+    text-shadow: 1px 1px white;
+    color: beige;
+}
+
